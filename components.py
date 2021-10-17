@@ -30,7 +30,7 @@ class sat_comps:
         
         # Extract length, width and height values as float from string
         
-        return [tuple(map(float,str(l).lower().split('x'))) for l in file_path.readlines()]
+        return [tuple(map(float,str(l).lower().split('x'))) for l in self.file_path.readlines()]
     
 
     def cal_shielding(self, dim):
