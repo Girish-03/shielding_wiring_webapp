@@ -28,10 +28,9 @@ class sat_comps:
         Python List of dimensions for each box with float values.
         '''
         
-        # Open file and extract length, width and height values as float from string
+        # Extract length, width and height values as float from string
         
-        with open(self.file_path,'r') as f:
-            return [tuple(map(float,l.lower().split('x'))) for l in f.readlines()]
+        return [tuple(map(float,str(l).lower().split('x'))) for l in file.readlines()]
     
 
     def cal_shielding(self, dim):
