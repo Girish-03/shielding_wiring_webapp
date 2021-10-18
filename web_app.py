@@ -10,7 +10,7 @@ import streamlit as st
 from io import StringIO
 from components import sat_comps
 
-st.image("https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/advice/corporate/h_lnxvxlqrdqb2kyrixw3lmmul7n-abrzjuzyvzd7_8mko4g7wumai5mc6yt11de4zbgxoxdizc75bhesr6ywacs9tbyrery9d9gnx02vfzsc1txxythfux5ks0hebfo.jpeg/h_lnxvxlqrdqb2kyrixw3lmmul7n-abrzjuzyvzd7_8mko4g7wumai5mc6yt11de4zbgxoxdizc75bhesr6ywacs9tbyrery9d9gnx02vfzsc1txxythfux5ks0hebfo.jpeg/metofficegovuk%3AheroMedium")
+st.image("https://www.northropgrumman.com/wp-content/uploads/space-facebook.jpg")
 st.title("Get Shielding and Wiring calculations")
 st.subheader("Upload .TXT file with box dimensions (in mm)")
 uploaded_files = st.file_uploader(label = "Choose a file", type= ['txt'], accept_multiple_files=True)
