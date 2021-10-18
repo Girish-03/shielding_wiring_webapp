@@ -10,7 +10,7 @@ import streamlit as st
 from io import StringIO
 from components import sat_comps
 
-st.image("https://www.northropgrumman.com/wp-content/uploads/space-facebook.jpg")
+st.image("https://www.analog.com/-/media/analog/en/applications-by-market/aerospace/space-technology-solutions/commercial-space-banner.jpg?imgver=1")
 st.title("Get Shielding and Wiring calculations")
 st.subheader("Upload .TXT file with box dimensions (in mm)")
 uploaded_files = st.file_uploader(label = "Choose a file", type= ['txt'], accept_multiple_files=True)
