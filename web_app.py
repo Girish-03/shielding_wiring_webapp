@@ -6,9 +6,9 @@ Created on Sat Oct 16 15:12:16 2021
 @author: girishsolanki
 """
 
-import streamlit as st
-from io import StringIO
-from components import sat_comps
+import streamlit as st # streamlit library to create webapp
+from io import StringIO # or stringIO operations
+from components import sat_comps # components module for calculations
 
 st.image("https://www.analog.com/-/media/analog/en/applications-by-market/aerospace/space-technology-solutions/commercial-space-banner.jpg?imgver=1")
 st.title("Get Shielding and Wiring calculations")
